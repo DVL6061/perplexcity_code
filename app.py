@@ -14,12 +14,12 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # Import custom modules
-from modules.data-fetcher import StockDataFetcher
-from modules.technical-analysis import TechnicalAnalyzer
-from modules.sentiment-analyzer import SentimentAnalyzer
-from modules.ml-predictor import MLPredictor
+from modules.data_fetcher import StockDataFetcher
+from modules.technical_analysis import TechnicalAnalyzer
+from modules.sentiment_analyzer import SentimentAnalyzer
+from modules.ml_predictor import MLPredictor
 from modules.visualization import ChartGenerator
-from modules.pdf-generator import PDFReportGenerator
+from modules.pdf_generator import PDFReportGenerator
 
 # Page config
 st.set_page_config(
